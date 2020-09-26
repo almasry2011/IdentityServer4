@@ -1,0 +1,1578 @@
+2020-09-25 13:30:53.512 +02:00 [INF] Starting host...
+2020-09-25 13:30:54.062 +02:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2020-09-25 13:30:54.081 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-09-25 13:30:54.086 +02:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2020-09-25 13:30:54.086 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2020-09-25 13:30:54.086 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2020-09-25 13:30:54.102 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2020-09-25 13:30:54.102 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2020-09-25 13:30:54.102 +02:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2020-09-25 13:30:54.430 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 13:30:54.430 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 13:30:54.430 +02:00 [INF] Hosting environment: Development
+2020-09-25 13:30:54.430 +02:00 [INF] Content root path: C:\Users\AMR\Desktop\IS4\IdentityServer4\IdentityServer
+2020-09-25 13:30:55.406 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 13:30:55.409 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 13:30:55.409 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 13:30:55.409 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 13:30:55.409 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 13:30:55.409 +02:00 [DBG] Error Url: /home/error
+2020-09-25 13:30:55.409 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 13:38:22.681 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-09-25 13:38:22.684 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-09-25 13:38:22.684 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-09-25 13:38:22.686 +02:00 [DBG] Start discovery request
+2020-09-25 18:50:22.984 +02:00 [INF] Starting host...
+2020-09-25 18:50:23.800 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 18:50:24.022 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 18:50:24.022 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 18:50:24.022 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 18:50:24.022 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 18:50:24.023 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 18:50:24.023 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 18:50:24.236 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 18:50:24.236 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 18:50:24.236 +02:00 [INF] Hosting environment: Development
+2020-09-25 18:50:24.236 +02:00 [INF] Content root path: C:\Users\AMR\Desktop\IS4\IdentityServer4\IdentityServer
+2020-09-25 18:50:25.091 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 18:50:25.094 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 18:50:25.094 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 18:50:25.094 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 18:50:25.094 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 18:50:25.094 +02:00 [DBG] Error Url: /home/error
+2020-09-25 18:50:25.094 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 18:50:25.130 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:50:25.142 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:50:29.336 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:50:29.336 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:50:29.358 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-25 18:50:29.468 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:50:29.471 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:50:32.196 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-25 18:50:32.204 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:50:32.204 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:50:33.769 +02:00 [ERR] Failed executing DbCommand (118ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserPhoto]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2020-09-25 18:50:33.869 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'IdentityServer.Models.IdentityDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:50b2c46c-9fd0-4bc2-bc25-083a744b7e1b
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:50b2c46c-9fd0-4bc2-bc25-083a744b7e1b
+Error Number:208,State:1,Class:16
+2020-09-25 18:50:33.900 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at IdentityServerHost.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\AMR\Desktop\IS4\IdentityServer4\IdentityServer\Quickstart\Account\AccountController.cs:line 116
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:50b2c46c-9fd0-4bc2-bc25-083a744b7e1b
+Error Number:208,State:1,Class:16
+2020-09-25 18:51:08.135 +02:00 [INF] Application is shutting down...
+2020-09-25 18:52:17.478 +02:00 [INF] Starting host...
+2020-09-25 18:52:17.939 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 18:52:18.073 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 18:52:18.074 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 18:52:18.074 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 18:52:18.074 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 18:52:18.074 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 18:52:18.074 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 18:52:18.238 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 18:52:18.238 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 18:52:18.238 +02:00 [INF] Hosting environment: Development
+2020-09-25 18:52:18.239 +02:00 [INF] Content root path: C:\Users\AMR\Desktop\IS4\IdentityServer4\IdentityServer
+2020-09-25 18:52:18.862 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 18:52:18.866 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 18:52:18.866 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 18:52:18.866 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 18:52:18.866 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 18:52:18.866 +02:00 [DBG] Error Url: /home/error
+2020-09-25 18:52:18.866 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 18:52:18.898 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:52:18.905 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:52:26.855 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:52:26.856 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:52:26.880 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-25 18:52:26.968 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:52:26.971 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:52:31.841 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-25 18:52:31.847 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:52:31.847 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 18:52:33.252 +02:00 [ERR] Failed executing DbCommand (92ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[UserPhoto]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2020-09-25 18:52:33.327 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'IdentityServer.Models.IdentityDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4917eeef-3820-479b-a736-ce7a2637ebb7
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4917eeef-3820-479b-a736-ce7a2637ebb7
+Error Number:208,State:1,Class:16
+2020-09-25 18:52:33.350 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AspNetUsers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at IdentityServerHost.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\AMR\Desktop\IS4\IdentityServer4\IdentityServer\Quickstart\Account\AccountController.cs:line 116
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:4917eeef-3820-479b-a736-ce7a2637ebb7
+Error Number:208,State:1,Class:16
+2020-09-25 19:00:36.504 +02:00 [INF] Starting host...
+2020-09-25 19:00:37.007 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 19:00:37.150 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 19:00:37.150 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 19:00:37.150 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 19:00:37.150 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 19:00:37.150 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 19:00:37.150 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 19:00:37.305 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 19:00:37.306 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 19:00:37.306 +02:00 [INF] Hosting environment: Development
+2020-09-25 19:00:37.306 +02:00 [INF] Content root path: C:\Users\AMR\Desktop\IS4\IdentityServer4\IdentityServer
+2020-09-25 19:00:38.468 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 19:00:38.473 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 19:00:38.473 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 19:00:38.473 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 19:00:38.473 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 19:00:38.473 +02:00 [DBG] Error Url: /home/error
+2020-09-25 19:00:38.473 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 19:00:38.499 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:00:38.512 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:00:56.529 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:00:56.530 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:00:58.826 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:00:58.829 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:00:58.842 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-25 19:00:58.925 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:00:58.926 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:01:01.194 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-25 19:01:01.197 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:01:01.198 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:01:02.693 +02:00 [INF] {"Username":"bob","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31EI3CEJ7M:00000009","TimeStamp":"2020-09-25T17:01:02.0000000Z","ProcessId":5316,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-25 19:01:15.395 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:01:15.395 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:01:21.553 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 19:01:21.555 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:22.194 +02:00 [INF] Starting host...
+2020-09-25 20:24:22.900 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:24:23.093 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:24:23.093 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:24:23.094 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:24:23.094 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:24:23.094 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:24:23.094 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:24:23.299 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 20:24:23.299 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 20:24:23.299 +02:00 [INF] Hosting environment: Development
+2020-09-25 20:24:23.300 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-25 20:24:24.262 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 20:24:24.266 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 20:24:24.266 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 20:24:24.266 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 20:24:24.266 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 20:24:24.266 +02:00 [DBG] Error Url: /home/error
+2020-09-25 20:24:24.266 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 20:24:24.291 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:24.302 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:27.926 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:27.927 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:27.956 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-25 20:24:28.054 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:28.058 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:30.135 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-25 20:24:30.140 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:30.140 +02:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-09-25 20:24:31.788 +02:00 [INF] {"Username":"bob","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31G0T53OVL:00000005","TimeStamp":"2020-09-25T18:24:31.0000000Z","ProcessId":10836,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-25 20:39:48.609 +02:00 [INF] Starting host...
+2020-09-25 20:39:50.068 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:39:50.416 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:39:50.417 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:39:50.417 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:39:50.417 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:39:50.417 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:39:50.417 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:39:50.827 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 20:39:50.828 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 20:39:50.828 +02:00 [INF] Hosting environment: Development
+2020-09-25 20:39:50.828 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-25 20:39:52.272 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 20:39:52.283 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 20:39:52.283 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 20:39:52.283 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 20:39:52.283 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 20:39:52.283 +02:00 [DBG] Error Url: /home/error
+2020-09-25 20:39:52.284 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 20:41:47.157 +02:00 [INF] Starting host...
+2020-09-25 20:41:47.799 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:41:48.093 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:41:48.093 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:41:48.093 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:41:48.093 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:41:48.094 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:41:48.094 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:41:48.505 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 20:41:48.505 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 20:41:48.505 +02:00 [INF] Hosting environment: Development
+2020-09-25 20:41:48.505 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-25 20:41:49.474 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 20:41:49.478 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 20:41:49.478 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 20:41:49.479 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 20:41:49.479 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 20:41:49.479 +02:00 [DBG] Error Url: /home/error
+2020-09-25 20:41:49.479 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 20:42:50.633 +02:00 [INF] Starting host...
+2020-09-25 20:42:51.284 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:42:51.558 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:42:51.558 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:42:51.558 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:42:51.558 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:42:51.558 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:42:51.558 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:42:51.868 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 20:42:51.868 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 20:42:51.868 +02:00 [INF] Hosting environment: Development
+2020-09-25 20:42:51.869 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-25 20:42:52.997 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 20:42:53.004 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 20:42:53.004 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 20:42:53.004 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 20:42:53.004 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 20:42:53.004 +02:00 [DBG] Error Url: /home/error
+2020-09-25 20:42:53.004 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 20:49:46.159 +02:00 [INF] Starting host...
+2020-09-25 20:49:46.720 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:49:46.883 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:49:46.883 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:49:46.883 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:49:46.883 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:49:46.883 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:49:46.883 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:49:47.063 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 20:49:47.064 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 20:49:47.064 +02:00 [INF] Hosting environment: Development
+2020-09-25 20:49:47.064 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-25 20:49:48.330 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 20:49:48.335 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 20:49:48.335 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 20:49:48.335 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 20:49:48.335 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 20:49:48.335 +02:00 [DBG] Error Url: /home/error
+2020-09-25 20:49:48.335 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 20:53:54.200 +02:00 [INF] Starting host...
+2020-09-25 20:53:54.761 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:53:54.915 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:53:54.915 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:53:54.915 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:53:54.915 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:53:54.915 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:53:54.915 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:53:55.148 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 20:53:55.148 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 20:53:55.148 +02:00 [INF] Hosting environment: Development
+2020-09-25 20:53:55.148 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-25 20:53:56.236 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 20:53:56.239 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 20:53:56.239 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 20:53:56.239 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 20:53:56.239 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 20:53:56.239 +02:00 [DBG] Error Url: /home/error
+2020-09-25 20:53:56.239 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 20:57:19.460 +02:00 [INF] Starting host...
+2020-09-25 20:57:19.924 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:57:20.078 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:57:20.078 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:57:20.078 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:57:20.078 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:57:20.078 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:57:20.078 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:57:20.263 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 20:57:20.263 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 20:57:20.263 +02:00 [INF] Hosting environment: Development
+2020-09-25 20:57:20.263 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-25 20:57:20.920 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 20:57:20.923 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 20:57:20.923 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 20:57:20.924 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 20:57:20.924 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 20:57:20.924 +02:00 [DBG] Error Url: /home/error
+2020-09-25 20:57:20.924 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-25 20:59:32.180 +02:00 [INF] Starting host...
+2020-09-25 20:59:32.732 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:59:32.912 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:59:32.912 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:59:32.912 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:59:32.912 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:59:32.912 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:59:32.912 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:59:33.013 +02:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddRazorPages' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.RazorPagesEndpointRouteBuilderExtensions.EnsureRazorPagesServices(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.RazorPagesEndpointRouteBuilderExtensions.MapRazorPages(IEndpointRouteBuilder endpoints)
+   at IdentityServer.Startup.<>c.<Configure>b__8_0(IEndpointRouteBuilder endpoints) in C:\Users\AMR\source\repos\IdentityServer4\is4\Startup.cs:line 147
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in C:\Users\AMR\source\repos\IdentityServer4\is4\Startup.cs:line 142
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2020-09-25 20:59:33.126 +02:00 [FTL] Host terminated unexpectedly.
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddRazorPages' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.RazorPagesEndpointRouteBuilderExtensions.EnsureRazorPagesServices(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.RazorPagesEndpointRouteBuilderExtensions.MapRazorPages(IEndpointRouteBuilder endpoints)
+   at IdentityServer.Startup.<>c.<Configure>b__8_0(IEndpointRouteBuilder endpoints) in C:\Users\AMR\source\repos\IdentityServer4\is4\Startup.cs:line 147
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in C:\Users\AMR\source\repos\IdentityServer4\is4\Startup.cs:line 142
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at IdentityServer.Program.Main(String[] args) in C:\Users\AMR\source\repos\IdentityServer4\is4\Program.cs:line 39
+2020-09-25 20:59:52.072 +02:00 [INF] Starting host...
+2020-09-25 20:59:52.556 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 20:59:52.709 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 20:59:52.709 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 20:59:52.709 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 20:59:52.709 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 20:59:52.709 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 20:59:52.709 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 20:59:52.804 +02:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddRazorPages' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.RazorPagesEndpointRouteBuilderExtensions.EnsureRazorPagesServices(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.RazorPagesEndpointRouteBuilderExtensions.MapRazorPages(IEndpointRouteBuilder endpoints)
+   at IdentityServer.Startup.<>c.<Configure>b__8_0(IEndpointRouteBuilder endpoints) in C:\Users\AMR\source\repos\IdentityServer4\is4\Startup.cs:line 147
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in C:\Users\AMR\source\repos\IdentityServer4\is4\Startup.cs:line 142
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2020-09-25 20:59:52.860 +02:00 [FTL] Host terminated unexpectedly.
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddRazorPages' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.RazorPagesEndpointRouteBuilderExtensions.EnsureRazorPagesServices(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.RazorPagesEndpointRouteBuilderExtensions.MapRazorPages(IEndpointRouteBuilder endpoints)
+   at IdentityServer.Startup.<>c.<Configure>b__8_0(IEndpointRouteBuilder endpoints) in C:\Users\AMR\source\repos\IdentityServer4\is4\Startup.cs:line 147
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in C:\Users\AMR\source\repos\IdentityServer4\is4\Startup.cs:line 142
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at IdentityServer.Program.Main(String[] args) in C:\Users\AMR\source\repos\IdentityServer4\is4\Program.cs:line 39
+2020-09-25 21:00:15.212 +02:00 [INF] Starting host...
+2020-09-25 21:00:15.774 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-25 21:00:15.927 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-25 21:00:15.927 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-25 21:00:15.927 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-25 21:00:15.927 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-25 21:00:15.927 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-25 21:00:15.927 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-25 21:00:16.149 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-25 21:00:16.150 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-25 21:00:16.150 +02:00 [INF] Hosting environment: Development
+2020-09-25 21:00:16.150 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-25 21:00:17.323 +02:00 [DBG] Login Url: /Account/Login
+2020-09-25 21:00:17.325 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-25 21:00:17.326 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-25 21:00:17.326 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-25 21:00:17.326 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-25 21:00:17.326 +02:00 [DBG] Error Url: /home/error
+2020-09-25 21:00:17.326 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 09:16:43.115 +02:00 [INF] Application is shutting down...
+2020-09-26 09:17:32.347 +02:00 [INF] Starting host...
+2020-09-26 09:17:32.875 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 09:17:33.051 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 09:17:33.052 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 09:17:33.052 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 09:17:33.052 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 09:17:33.052 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 09:17:33.052 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 09:17:33.258 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 09:17:33.258 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 09:17:33.258 +02:00 [INF] Hosting environment: Development
+2020-09-26 09:17:33.258 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 09:17:34.417 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 09:17:34.423 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 09:17:34.423 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 09:17:34.423 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 09:17:34.423 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 09:17:34.423 +02:00 [DBG] Error Url: /home/error
+2020-09-26 09:17:34.424 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 09:17:39.085 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-26 09:18:08.303 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-26 09:18:18.294 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 09:18:20.357 +02:00 [INF] {"Username":"bob","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31TGUFB4CO:00000001","TimeStamp":"2020-09-26T07:18:20.0000000Z","ProcessId":8868,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 09:46:58.070 +02:00 [INF] Starting host...
+2020-09-26 09:46:58.639 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 09:46:58.792 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 09:46:58.793 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 09:46:58.793 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 09:46:58.793 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 09:46:58.793 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 09:46:58.793 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 09:46:59.033 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 09:46:59.033 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 09:46:59.034 +02:00 [INF] Hosting environment: Development
+2020-09-26 09:46:59.034 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 09:47:00.258 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 09:47:00.262 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 09:47:00.262 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 09:47:00.262 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 09:47:00.262 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 09:47:00.262 +02:00 [DBG] Error Url: /home/error
+2020-09-26 09:47:00.262 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 09:47:09.818 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-26 09:47:12.759 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 09:47:14.735 +02:00 [INF] {"Username":"bob","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31U1CMU151:00000005","TimeStamp":"2020-09-26T07:47:14.0000000Z","ProcessId":14008,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 09:47:44.101 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 09:47:44.167 +02:00 [INF] {"Username":"alice","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31U1CMU152:00000001","TimeStamp":"2020-09-26T07:47:44.0000000Z","ProcessId":14008,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 10:01:29.937 +02:00 [INF] Starting host...
+2020-09-26 10:01:30.402 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:01:30.550 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:01:30.550 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:01:30.550 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:01:30.550 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:01:30.550 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:01:30.550 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:01:30.737 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:01:30.738 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:01:30.738 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:01:30.738 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:01:32.030 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:01:32.033 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:01:32.033 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:01:32.033 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:01:32.033 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:01:32.033 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:01:32.033 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:01:37.180 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-26 10:02:24.139 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 10:02:26.217 +02:00 [DBG] Augmenting SignInContext
+2020-09-26 10:02:26.219 +02:00 [DBG] Adding idp claim with value: local
+2020-09-26 10:02:26.219 +02:00 [DBG] Adding auth_time claim with value: 1601107346
+2020-09-26 10:02:26.242 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-09-26 10:02:26.260 +02:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"2","DisplayName":"bob","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HM31U9GHUESI:00000001","TimeStamp":"2020-09-26T08:02:26.0000000Z","ProcessId":5704,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2020-09-26 10:02:37.721 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:03:51.821 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:04:04.743 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:04:25.919 +02:00 [INF] Starting host...
+2020-09-26 10:04:26.476 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:04:26.823 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:04:26.823 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:04:26.823 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:04:26.823 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:04:26.823 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:04:26.823 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:04:27.016 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:04:27.016 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:04:27.016 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:04:27.017 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:04:27.894 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:04:27.896 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:04:27.896 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:04:27.896 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:04:27.897 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:04:27.897 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:04:27.897 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:04:33.974 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:05:55.319 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:09:55.090 +02:00 [INF] Starting host...
+2020-09-26 10:09:55.693 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:09:55.859 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:09:55.859 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:09:55.859 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:09:55.859 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:09:55.859 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:09:55.860 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:09:56.086 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:09:56.086 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:09:56.086 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:09:56.086 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:09:56.995 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:09:56.998 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:09:56.998 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:09:56.998 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:09:56.998 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:09:56.998 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:09:56.998 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:10:03.143 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:11:22.731 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:14:45.980 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:19:41.647 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:19:44.370 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:21:09.698 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:21:48.507 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:21:49.864 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '/Areas/Identity/Pages/_Layout.cshtml' could not be located. The following locations were searched:
+/Areas/Identity/Pages/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:24:11.903 +02:00 [INF] Starting host...
+2020-09-26 10:24:12.819 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:24:13.196 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:24:13.196 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:24:13.196 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:24:13.196 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:24:13.196 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:24:13.196 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:24:13.778 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:24:13.779 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:24:13.780 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:24:13.780 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:24:14.324 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:24:14.329 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:24:14.330 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:24:14.330 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:24:14.331 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:24:14.331 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:24:14.331 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:25:33.762 +02:00 [INF] Starting host...
+2020-09-26 10:25:34.231 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:25:34.398 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:25:34.398 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:25:34.398 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:25:34.398 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:25:34.398 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:25:34.398 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:25:34.588 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:25:34.588 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:25:34.588 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:25:34.588 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:25:35.609 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:25:35.613 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:25:35.613 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:25:35.613 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:25:35.613 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:25:35.613 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:25:35.613 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:25:52.304 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 10:26:06.732 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UI.Services.IEmailSender' while attempting to activate 'IdentityServer.Areas.Identity.Pages.Account.RegisterModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass1_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:27:42.313 +02:00 [INF] Starting host...
+2020-09-26 10:27:42.822 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:27:42.994 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:27:42.994 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:27:42.994 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:27:42.994 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:27:42.994 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:27:42.994 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:27:43.230 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:27:43.230 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:27:43.230 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:27:43.231 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:27:44.317 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:27:44.321 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:27:44.321 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:27:44.321 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:27:44.321 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:27:44.321 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:27:44.321 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:28:10.566 +02:00 [WRN] User 74facac5-8623-46c2-a110-6e42bbf081a2 password validation failed: PasswordRequiresUpper.
+2020-09-26 10:28:36.121 +02:00 [INF] User created a new account with password.
+2020-09-26 10:28:36.287 +02:00 [DBG] Augmenting SignInContext
+2020-09-26 10:28:36.289 +02:00 [DBG] Adding idp claim with value: local
+2020-09-26 10:28:36.289 +02:00 [DBG] Adding amr claim with value: pwd
+2020-09-26 10:28:36.289 +02:00 [DBG] Adding auth_time claim with value: 1601108916
+2020-09-26 10:28:36.311 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-09-26 10:28:49.822 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-09-26 10:28:49.828 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-09-26 10:28:49.828 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-09-26 10:28:49.832 +02:00 [DBG] Start discovery request
+2020-09-26 10:28:50.457 +02:00 [DBG] Found [] as all scopes, and [] as API resources
+2020-09-26 10:29:19.387 +02:00 [DBG] 0 persisted grants found for {"SubjectId":"40a5bd3d-0dea-4670-ac38-cb3f2f669962","SessionId":null,"ClientId":null,"Type":null,"$type":"PersistedGrantFilter"}
+2020-09-26 10:32:23.231 +02:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 10:32:23.259 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 10:32:23.267 +02:00 [INF] {"SubjectId":"40a5bd3d-0dea-4670-ac38-cb3f2f669962","DisplayName":"amr@h.com","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"0HM31UO55O06V:00000003","TimeStamp":"2020-09-26T08:32:23.0000000Z","ProcessId":11816,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-09-26 10:32:27.015 +02:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 10:32:27.021 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 10:32:27.022 +02:00 [INF] {"SubjectId":"40a5bd3d-0dea-4670-ac38-cb3f2f669962","DisplayName":"amr@h.com","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"0HM31UO55O070:00000001","TimeStamp":"2020-09-26T08:32:27.0000000Z","ProcessId":11816,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-09-26 10:33:46.732 +02:00 [INF] Starting host...
+2020-09-26 10:33:47.213 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:33:47.363 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:33:47.363 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:33:47.363 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:33:47.363 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:33:47.363 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:33:47.363 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:33:47.538 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:33:47.539 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:33:47.539 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:33:47.539 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:33:48.484 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:33:48.487 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:33:48.487 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:33:48.487 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:33:48.487 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:33:48.487 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:33:48.487 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:37:49.381 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 10:37:55.889 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UI.Services.IEmailSender' while attempting to activate 'IdentityServer.Areas.Identity.Pages.Account.ForgotPasswordModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass1_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:39:47.621 +02:00 [INF] Starting host...
+2020-09-26 10:39:48.167 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:39:48.316 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:39:48.316 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:39:48.316 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:39:48.316 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:39:48.316 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:39:48.316 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:39:48.491 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:39:48.492 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:39:48.492 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:39:48.492 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:39:49.425 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:39:49.427 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:39:49.427 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:39:49.427 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:39:49.428 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:39:49.428 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:39:49.428 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:45:20.840 +02:00 [INF] Starting host...
+2020-09-26 10:45:21.355 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:45:21.520 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:45:21.520 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:45:21.520 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:45:21.520 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:45:21.520 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:45:21.520 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:45:21.713 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:45:21.713 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:45:21.713 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:45:21.713 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:45:22.600 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:45:22.603 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:45:22.603 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:45:22.603 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:45:22.603 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:45:22.603 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:45:22.603 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:47:13.091 +02:00 [INF] Starting host...
+2020-09-26 10:47:13.556 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:47:13.719 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:47:13.719 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:47:13.719 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:47:13.720 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:47:13.720 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:47:13.720 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:47:14.095 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:47:14.096 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:47:14.096 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:47:14.096 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:47:15.070 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:47:15.074 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:47:15.074 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:47:15.074 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:47:15.074 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:47:15.074 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:47:15.074 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:50:09.747 +02:00 [INF] Starting host...
+2020-09-26 10:50:10.305 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:50:10.456 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:50:10.456 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:50:10.456 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:50:10.456 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:50:10.456 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:50:10.456 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:50:10.633 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:50:10.633 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:50:10.633 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:50:10.633 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:50:11.639 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:50:11.642 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:50:11.642 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:50:11.642 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:50:11.642 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:50:11.642 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:50:11.642 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:50:11.877 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot determine the 'href' attribute for <a>. The following attributes are mutually exclusive:
+asp-route
+asp-controller, asp-action
+asp-page, asp-page-handler
+   at Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Process(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.TagHelpers.TagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Shared__Nav.ExecuteAsync() in C:\Users\AMR\source\repos\IdentityServer4\is4\Views\Shared\_Nav.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.RenderPartialViewAsync(TextWriter writer, Object model, IView view)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Shared__Layout.<ExecuteAsync>b__20_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:50:34.227 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot determine the 'href' attribute for <a>. The following attributes are mutually exclusive:
+asp-route
+asp-controller, asp-action
+asp-page, asp-page-handler
+   at Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Process(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.TagHelpers.TagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Shared__Nav.ExecuteAsync() in C:\Users\AMR\source\repos\IdentityServer4\is4\Views\Shared\_Nav.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.RenderPartialViewAsync(TextWriter writer, Object model, IView view)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Shared__Layout.<ExecuteAsync>b__20_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:50:42.394 +02:00 [INF] Starting host...
+2020-09-26 10:50:42.848 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:50:42.995 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:50:42.996 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:50:42.996 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:50:42.996 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:50:42.996 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:50:42.996 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:50:43.175 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:50:43.175 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:50:43.175 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:50:43.175 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:50:43.789 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:50:43.791 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:50:43.792 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:50:43.792 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:50:43.792 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:50:43.792 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:50:43.792 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:50:44.022 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot determine the 'href' attribute for <a>. The following attributes are mutually exclusive:
+asp-route
+asp-controller, asp-action
+asp-page, asp-page-handler
+   at Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Process(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.TagHelpers.TagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCore.Views_Shared__Nav.ExecuteAsync() in C:\Users\AMR\source\repos\IdentityServer4\is4\Views\Shared\_Nav.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.RenderPartialViewAsync(TextWriter writer, Object model, IView view)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Shared__Layout.<ExecuteAsync>b__20_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared__Layout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:51:10.673 +02:00 [INF] Starting host...
+2020-09-26 10:51:11.174 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:51:11.371 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:51:11.371 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:51:11.371 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:51:11.371 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:51:11.371 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:51:11.371 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:51:11.548 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:51:11.548 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:51:11.548 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:51:11.548 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:51:12.535 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:51:12.538 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:51:12.538 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:51:12.538 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:51:12.538 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:51:12.538 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:51:12.538 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:51:46.885 +02:00 [INF] Starting host...
+2020-09-26 10:51:47.435 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:51:47.648 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:51:47.648 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:51:47.648 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:51:47.649 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:51:47.649 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:51:47.649 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:51:47.896 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:51:47.897 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:51:47.897 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:51:47.897 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:51:48.707 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:51:48.711 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:51:48.711 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:51:48.711 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:51:48.711 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:51:48.711 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:51:48.711 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:52:14.640 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 10:52:17.081 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UI.Services.IEmailSender' while attempting to activate 'IdentityServer.Areas.Identity.Pages.Account.ForgotPasswordModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass1_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:56:08.630 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UI.Services.IEmailSender' while attempting to activate 'IdentityServer.Areas.Identity.Pages.Account.Manage.EmailModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass1_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:56:40.092 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UI.Services.IEmailSender' while attempting to activate 'IdentityServer.Areas.Identity.Pages.Account.Manage.EmailModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass1_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 10:58:01.102 +02:00 [INF] Starting host...
+2020-09-26 10:58:01.722 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:58:01.908 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:58:01.908 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:58:01.908 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:58:01.908 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:58:01.908 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:58:01.908 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:58:02.096 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:58:02.096 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:58:02.096 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:58:02.097 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:58:03.091 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:58:03.095 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:58:03.095 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:58:03.095 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:58:03.095 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:58:03.096 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:58:03.096 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:58:48.866 +02:00 [INF] Starting host...
+2020-09-26 10:58:49.315 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 10:58:49.463 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 10:58:49.463 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 10:58:49.463 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 10:58:49.463 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 10:58:49.463 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 10:58:49.464 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 10:58:49.645 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 10:58:49.645 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 10:58:49.645 +02:00 [INF] Hosting environment: Development
+2020-09-26 10:58:49.645 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 10:58:50.304 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 10:58:50.308 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 10:58:50.308 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 10:58:50.308 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 10:58:50.308 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 10:58:50.308 +02:00 [DBG] Error Url: /home/error
+2020-09-26 10:58:50.308 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 10:59:06.783 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UI.Services.IEmailSender' while attempting to activate 'IdentityServer.Areas.Identity.Pages.Account.ForgotPasswordModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass1_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events, IBackChannelLogoutService backChannelLogoutService)
+   at IdentityServer4.Hosting.MutualTlsEndpointMiddleware.Invoke(HttpContext context, IAuthenticationSchemeProvider schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-09-26 11:02:56.104 +02:00 [INF] Starting host...
+2020-09-26 11:03:00.991 +02:00 [INF] Starting IdentityServer4 version 4.1.0+5a4433f83e8c6fca7d8979141fa5a92684ad56f6
+2020-09-26 11:03:01.238 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2020-09-26 11:03:01.238 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2020-09-26 11:03:01.239 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2020-09-26 11:03:01.239 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2020-09-26 11:03:01.239 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2020-09-26 11:03:01.239 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2020-09-26 11:03:01.687 +02:00 [INF] Now listening on: https://localhost:5001
+2020-09-26 11:03:01.688 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-09-26 11:03:01.688 +02:00 [INF] Hosting environment: Development
+2020-09-26 11:03:01.688 +02:00 [INF] Content root path: C:\Users\AMR\source\repos\IdentityServer4\is4
+2020-09-26 11:03:04.503 +02:00 [DBG] Login Url: /Account/Login
+2020-09-26 11:03:04.508 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2020-09-26 11:03:04.508 +02:00 [DBG] Logout Url: /Account/Logout
+2020-09-26 11:03:04.508 +02:00 [DBG] ConsentUrl Url: /consent
+2020-09-26 11:03:04.508 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2020-09-26 11:03:04.508 +02:00 [DBG] Error Url: /home/error
+2020-09-26 11:03:04.508 +02:00 [DBG] Error Id Parameter: errorId
+2020-09-26 11:03:50.559 +02:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:04:14.619 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 11:04:19.223 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-09-26 11:04:19.223 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 11:04:19.224 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-09-26 11:04:22.997 +02:00 [INF] {"SubjectId":"40a5bd3d-0dea-4670-ac38-cb3f2f669962","DisplayName":"amr@h.com","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"0HM31VBSEJ63N:00000001","TimeStamp":"2020-09-26T09:04:22.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-09-26 11:04:25.360 +02:00 [DBG] SignOutCalled set; processing post-signout session cleanup.
+2020-09-26 11:04:31.027 +02:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:04:42.218 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-26 11:04:48.759 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:04:51.605 +02:00 [WRN] User 40a5bd3d-0dea-4670-ac38-cb3f2f669962 cannot sign in without a confirmed email.
+2020-09-26 11:04:51.609 +02:00 [INF] {"Username":"amr@h.com","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ63P:00000005","TimeStamp":"2020-09-26T09:04:51.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:05:00.620 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:05:00.721 +02:00 [WRN] User 40a5bd3d-0dea-4670-ac38-cb3f2f669962 cannot sign in without a confirmed email.
+2020-09-26 11:05:00.722 +02:00 [INF] {"Username":"amr@h.com","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ63Q:00000001","TimeStamp":"2020-09-26T09:05:00.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:05:12.787 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:05:12.820 +02:00 [INF] {"Username":"amr","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ63R:00000001","TimeStamp":"2020-09-26T09:05:12.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:05:24.387 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:05:24.427 +02:00 [INF] {"Username":"amr","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ63S:00000001","TimeStamp":"2020-09-26T09:05:24.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:05:37.639 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 11:06:09.538 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:06:09.553 +02:00 [WRN] User 40a5bd3d-0dea-4670-ac38-cb3f2f669962 cannot sign in without a confirmed email.
+2020-09-26 11:06:09.554 +02:00 [INF] {"Username":"amr@h.com","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ63V:00000001","TimeStamp":"2020-09-26T09:06:09.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:06:42.978 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:06:43.001 +02:00 [INF] {"Username":"amr@h.com","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ640:00000001","TimeStamp":"2020-09-26T09:06:43.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:06:47.048 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:06:47.067 +02:00 [WRN] User 40a5bd3d-0dea-4670-ac38-cb3f2f669962 cannot sign in without a confirmed email.
+2020-09-26 11:06:47.068 +02:00 [INF] {"Username":"amr","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ641:00000001","TimeStamp":"2020-09-26T09:06:47.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:06:57.354 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:06:57.380 +02:00 [WRN] User 40a5bd3d-0dea-4670-ac38-cb3f2f669962 cannot sign in without a confirmed email.
+2020-09-26 11:06:57.380 +02:00 [INF] {"Username":"amr","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ642:00000001","TimeStamp":"2020-09-26T09:06:57.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:07:16.134 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:07:26.335 +02:00 [WRN] User 40a5bd3d-0dea-4670-ac38-cb3f2f669962 cannot sign in without a confirmed email.
+2020-09-26 11:07:26.336 +02:00 [INF] {"Username":"amr","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ643:00000001","TimeStamp":"2020-09-26T09:07:26.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:07:36.842 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:08:19.647 +02:00 [WRN] User 40a5bd3d-0dea-4670-ac38-cb3f2f669962 cannot sign in without a confirmed email.
+2020-09-26 11:08:49.323 +02:00 [INF] {"Username":"amr","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ644:00000001","TimeStamp":"2020-09-26T09:08:49.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:09:04.967 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:09:35.111 +02:00 [WRN] User 40a5bd3d-0dea-4670-ac38-cb3f2f669962 cannot sign in without a confirmed email.
+2020-09-26 11:13:27.435 +02:00 [INF] {"Username":"amr","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ645:00000001","TimeStamp":"2020-09-26T09:13:27.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
+2020-09-26 11:14:15.349 +02:00 [WRN] User 63f1d870-be60-4a0c-9e57-eb5da0190113 password validation failed: PasswordRequiresUpper.
+2020-09-26 11:14:44.960 +02:00 [INF] User created a new account with password.
+2020-09-26 11:14:45.127 +02:00 [DBG] Augmenting SignInContext
+2020-09-26 11:14:45.128 +02:00 [DBG] Adding idp claim with value: local
+2020-09-26 11:14:45.128 +02:00 [DBG] Adding amr claim with value: pwd
+2020-09-26 11:14:45.128 +02:00 [DBG] Adding auth_time claim with value: 1601111685
+2020-09-26 11:14:45.134 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-09-26 11:15:52.106 +02:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:15:56.990 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 11:16:00.917 +02:00 [INF] {"SubjectId":"84a9f95b-7f86-45fa-8d5a-c6a8b4aeed2b","DisplayName":"Amr1@h.com","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"0HM31VBSEJ649:00000003","TimeStamp":"2020-09-26T09:16:00.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-09-26 11:16:14.870 +02:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:16:18.309 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 11:16:18.310 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2020-09-26 11:16:18.313 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2020-09-26 11:16:18.313 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-09-26 11:16:18.314 +02:00 [INF] {"SubjectId":"84a9f95b-7f86-45fa-8d5a-c6a8b4aeed2b","DisplayName":"Amr1@h.com","Category":"Authentication","Name":"User Logout Success","EventType":"Success","Id":1002,"Message":null,"ActivityId":"0HM31VBSEJ64B:00000001","TimeStamp":"2020-09-26T09:16:18.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLogoutSuccessEvent"}
+2020-09-26 11:16:18.318 +02:00 [DBG] SignOutCalled set; processing post-signout session cleanup.
+2020-09-26 11:16:23.059 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-09-26 11:16:28.891 +02:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-09-26 11:16:45.943 +02:00 [WRN] User 84a9f95b-7f86-45fa-8d5a-c6a8b4aeed2b cannot sign in without a confirmed email.
+2020-09-26 11:17:08.594 +02:00 [INF] {"Username":"Amr1@h.com","Endpoint":"UI","ClientId":null,"Category":"Authentication","Name":"User Login Failure","EventType":"Failure","Id":1001,"Message":"invalid credentials","ActivityId":"0HM31VBSEJ64C:00000001","TimeStamp":"2020-09-26T09:17:08.0000000Z","ProcessId":13632,"LocalIpAddress":"::1:5001","RemoteIpAddress":"::1","$type":"UserLoginFailureEvent"}
